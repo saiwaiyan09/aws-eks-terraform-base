@@ -1,0 +1,17 @@
+
+.terraform/
+.terraform.lock.hcl
+
+
+terraform.tfstate
+terraform.tfstate.backup
+
+
+
+.tfars
+*.tfvars.json
+
+# SSH Keys and local files
+
+*.pem
+*.key

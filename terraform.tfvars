@@ -1,0 +1,10 @@
+profile               = "master-console-admin"
+aws_region            = "ap-southeast-7"
+vpc_cidr              = "192.168.0.0/16"
+public_subnet_1_cidr  = "192.168.1.0/24"
+public_subnet_2_cidr  = "192.168.2.0/24"
+private_subnet_1_cidr = "192.168.11.0/24"
+private_subnet_2_cidr = "192.168.12.0/24"
+cluster_name          = "hc-eks-thai-cluster"
+node_group_name       = "hc-eks-managed-nodes"
+instance_types        = ["t3.medium"]
