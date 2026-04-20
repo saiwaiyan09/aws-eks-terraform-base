@@ -14,4 +14,4 @@ terraform.tfvars
 # SSH Keys and local files
 
 *.pem
-*.key
+*.keyterraform.tfvars
